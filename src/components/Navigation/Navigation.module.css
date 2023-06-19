@@ -1,0 +1,32 @@
+.nav {
+    margin: 20px auto 0;
+    text-align: start;
+    background-color: #825ee4;
+    border-radius: 8px;
+    box-shadow: inset rgba(0, 0, 0, 0.541) -3px -3px 8px,
+      inset rgba(255, 253, 253, 0.9) 3px 3px 8px,
+      rgba(0, 0, 0, 0.8) 3px 3px 8px -3px;
+  }
+
+  .link {
+    display: inline-flex;
+    padding: 15px 20px;
+    font-weight: 600;
+    color: #ece5e5;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .link:first-child {
+    margin-right: 62%;
+  }
+  
+  .link:hover {
+    color: #f2e317;
+    text-shadow: 1px #dbe7dccb;
+  }
+  
+  .activeLink {
+    color: #0ace0dcb;
+  }
