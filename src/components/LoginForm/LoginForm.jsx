@@ -64,7 +64,7 @@ return (
         </label>
         <button type="submit" className={css.button}>Log In</button>
       </form>
-      <Link className={css.info} href='/signup'>
+      <Link className={css.info} to={'/register'}>
             Don't have an account yet? Sign up
       </Link>
       </div>

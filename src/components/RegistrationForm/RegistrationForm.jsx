@@ -48,6 +48,7 @@ return (
                 type='text'
                 name='name'
                 id='name'
+                autoComplete='name'
                 value={formik.values.name}
                 onChange={formik.handleChange}
                 error={formik.touched.name && formik.errors.name}

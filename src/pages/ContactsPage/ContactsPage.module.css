@@ -1,0 +1,24 @@
+.section {
+    margin-bottom: 10px;
+    border: solid 5px darkolivegreen;
+    gap: 10px;
+    border-radius: 25px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #010101;
+  }
+  h1 {
+    margin: 3px;
+    color: darkolivegreen;
+    text-align: center;
+  }
+  
+  h2 {
+    margin: 3px;
+    color: darkolivegreen;
+    text-align: center;
+  }
