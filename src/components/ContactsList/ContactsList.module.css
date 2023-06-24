@@ -1,3 +1,7 @@
+.list {
+    margin: 0;
+    padding: 0;
+}
 .item {
     padding: 5px 10px;
     display: flex;
@@ -20,6 +24,11 @@ button {
     background-color: darkolivegreen;
     border-radius: 12px;
     cursor: pointer;
+}
+
+.updateBtn {
+    margin-right: 20px;
+    color:lavender;
 }
 .name {
     margin-right: 20px;
