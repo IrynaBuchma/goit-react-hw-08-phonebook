@@ -29,7 +29,7 @@ export const UpdateContactModal = ({
       closeAfterTransition
       backdrop={Backdrop}
       props={{
-        timeout: 500,
+        timeout: 50,
       }}
       aria-labelledby="spring-modal-name"
       aria-describedby="spring-modal-number"
@@ -50,7 +50,7 @@ export const UpdateContactModal = ({
 UpdateContactModal.propTypes = {
     isOpenModal: PropTypes.bool.isRequired,
     onClose: PropTypes.func.isRequired,
-    id: PropTypes.string.isRequired,
+    id: PropTypes.string,
     name: PropTypes.string.isRequired,
     number: PropTypes.string.isRequired,
   };

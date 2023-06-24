@@ -7,6 +7,7 @@ import css from './UpdateContactForm.module.css';
 export const UpdateContactForm = ({ onClose, id, name, number }) => {
 
     const dispatch = useDispatch();
+    console.log(id);
 
     const handleSubmit = (values, { resetForm }) => {
         dispatch(updateContact({ id, values }))
@@ -20,7 +21,6 @@ export const UpdateContactForm = ({ onClose, id, name, number }) => {
     };
 
     const formik = useFormik({
-        id,
         initialValues: {
             name,
             number,

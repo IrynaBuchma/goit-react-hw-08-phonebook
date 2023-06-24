@@ -26,7 +26,7 @@ export default function ContactForm() {
         } else {
             onAddContact(name, number);
         }
-
+        contacts.map(contact => console.log(contact.id));
         setName(''); 
         setNumber('');
     }
