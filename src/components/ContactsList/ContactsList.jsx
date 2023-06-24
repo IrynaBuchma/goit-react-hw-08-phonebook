@@ -22,7 +22,7 @@ export default function ContactsList() {
          <ul className={css.list}>
             {filterContacts.map(({ id, name, number }) => (
               <li key={id} className={css.item}>
-                <ContactItem key={id} name={name} number={number}/>
+                <ContactItem key={id} id={id} name={name} number={number}/>
               </li>
             ))}
          </ul>
